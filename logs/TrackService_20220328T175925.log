@@ -1,0 +1,63 @@
+17:59:26.515 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+17:59:26.946 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+17:59:27.114 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:59:27.153 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+17:59:27.157 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+17:59:27.166 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+17:59:27.168 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+17:59:27.179 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7158daf2
+17:59:27.185 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@10f19647
+17:59:27.185 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:59:27.185 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 27 ms
+17:59:27.328 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - DELETE "/api/v1/muzixservice/track/Track2", parameters={}
+17:59:27.334 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+17:59:27.336 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
+17:59:27.367 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+17:59:27.374 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+17:59:27.376 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:59:27.377 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+17:59:27.377 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+17:59:27.377 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+17:59:27.377 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+17:59:27.378 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@ec8f4b9
+17:59:27.378 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@bc042d5
+17:59:27.378 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:59:27.378 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+17:59:27.381 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - PUT "/api/v1/muzixservice/track/Track2", parameters={}
+17:59:27.383 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.stackroute.muzixservice.controller.MuzixController#updateTrack(String, String)
+17:59:27.449 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+17:59:27.452 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Error !!! "]
+17:59:27.458 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+17:59:27.477 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+17:59:27.484 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+17:59:27.490 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:59:27.490 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+17:59:27.490 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+17:59:27.490 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+17:59:27.491 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+17:59:27.491 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1caa9eb6
+17:59:27.491 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1f53481b
+17:59:27.492 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:59:27.492 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+17:59:27.496 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - GET "/api/v1/muzixservice/tracks", parameters={}
+17:59:27.497 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.stackroute.muzixservice.controller.MuzixController#getTracks()
+17:59:27.503 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+17:59:27.591 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Track{trackId='Track1', trackName='Mynewtrack', comments='new comments', trackListeners='123', trac (truncated)...]
+17:59:27.606 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 200 OK
+17:59:27.704 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+17:59:27.711 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+17:59:27.716 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:59:27.717 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+17:59:27.717 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+17:59:27.718 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+17:59:27.718 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+17:59:27.718 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@65ddee5a
+17:59:27.718 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@56399b9e
+17:59:27.718 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:59:27.718 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+17:59:27.726 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - POST "/api/v1/muzixservice/track", parameters={}
+17:59:27.727 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.stackroute.muzixservice.controller.MuzixController#saveTrack(Track)
+17:59:27.780 [main] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<?> com.stackroute.muzixservice.controller.MuzixController.saveTrack(com.stackroute.muzixservice.domain.Track) throws com.stackroute.muzixservice.exception.TrackAlreadyExistsException: Type definition error: [simple type, class com.stackroute.muzixservice.domain.Artist]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.stackroute.muzixservice.domain.Artist` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 143] (through reference chain: com.stackroute.muzixservice.domain.Track["artist"])
+17:59:27.783 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.stackroute.muzixservice.domain.Artist]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.stackroute.muzixservice.domain.Artist` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 143] (through reference chain: com.stackroute.muzixservice.domain.Track["artist"])

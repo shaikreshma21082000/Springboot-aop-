@@ -1,0 +1,66 @@
+09:24:07.408 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+09:24:07.700 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+09:24:07.743 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+09:24:07.778 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:24:07.779 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:24:07.781 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+09:24:07.782 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+09:24:07.783 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3ce53f6a
+09:24:07.783 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2d82408
+09:24:07.784 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+09:24:07.784 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms
+09:24:07.908 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - DELETE "/api/v1/muzixservice/track/Track2", parameters={}
+09:24:07.925 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.stackroute.muzixservice.controller.MuzixController#deleteTrack(String)
+09:24:08.020 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:24:08.021 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [true]
+09:24:08.029 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 200 OK
+09:24:08.091 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+09:24:08.097 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+09:24:08.099 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+09:24:08.099 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:24:08.099 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:24:08.099 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+09:24:08.100 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+09:24:08.100 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5793b87
+09:24:08.100 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@12704e15
+09:24:08.100 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+09:24:08.100 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+09:24:08.103 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - PUT "/api/v1/muzixservice/track/Track2", parameters={}
+09:24:08.103 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.stackroute.muzixservice.controller.MuzixController#updateTrack(String, String)
+09:24:08.108 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json" to ["{"trackId":"Track2","trackName":"Mynewtrack123","comments":"new comments updated","trackListeners": (truncated)...]
+09:24:08.209 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+09:24:08.210 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Error !!! "]
+09:24:08.211 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+09:24:08.260 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+09:24:08.287 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+09:24:08.297 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+09:24:08.301 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:24:08.304 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:24:08.304 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+09:24:08.304 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+09:24:08.305 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@35a60674
+09:24:08.306 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@63d4f0a2
+09:24:08.306 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+09:24:08.307 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+09:24:08.323 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - GET "/api/v1/muzixservice/tracks", parameters={}
+09:24:08.331 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.stackroute.muzixservice.controller.MuzixController#getTracks()
+09:24:08.336 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:24:08.562 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Track{trackId='Track1', trackName='Mynewtrack', comments='new comments', trackListeners='123', trac (truncated)...]
+09:24:08.586 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 200 OK
+09:24:08.618 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+09:24:08.626 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+09:24:08.630 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+09:24:08.631 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:24:08.631 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:24:08.631 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+09:24:08.631 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+09:24:08.631 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1b7332a7
+09:24:08.631 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@77c233af
+09:24:08.631 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+09:24:08.631 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:24:08.637 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - POST "/api/v1/muzixservice/track", parameters={}
+09:24:08.638 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.stackroute.muzixservice.controller.MuzixController#saveTrack(Track)
+09:24:08.694 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json" to [Track{trackId='Track2', trackName='Mynewtrack123', comments='new comments updated', trackListeners=' (truncated)...]
+09:24:08.699 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:24:08.701 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Track{trackId='Track2', trackName='Mynewtrack123', comments='new comments updated', trackListeners=' (truncated)...]
+09:24:08.703 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 201 CREATED

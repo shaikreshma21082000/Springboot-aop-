@@ -1,0 +1,16 @@
+17:59:10.393 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+17:59:10.627 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+17:59:10.669 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:59:10.697 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+17:59:10.698 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+17:59:10.701 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+17:59:10.702 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+17:59:10.703 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@62573c86
+17:59:10.704 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2418ba04
+17:59:10.704 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:59:10.704 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 6 ms
+17:59:10.801 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - GET "/api/v1/muzixservice/tracks", parameters={}
+17:59:10.806 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.stackroute.muzixservice.controller.MuzixController#getTracks()
+17:59:10.861 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+17:59:10.916 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[Track{trackId='Track1', trackName='Mynewtrack', comments='new comments', trackListeners='123', trac (truncated)...]
+17:59:10.933 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 200 OK

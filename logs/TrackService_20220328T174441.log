@@ -1,0 +1,17 @@
+17:44:42.305 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 1 mappings in <unknown>
+17:44:42.624 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+17:44:42.672 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:44:42.706 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+17:44:42.707 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+17:44:42.710 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+17:44:42.712 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+17:44:42.713 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6ba7383d
+17:44:42.713 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3419e23b
+17:44:42.713 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:44:42.713 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 6 ms
+17:44:42.897 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - POST "/api/v1/muzixservice/track", parameters={}
+17:44:42.915 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.stackroute.muzixservice.controller.MuzixController#saveTrack(Track)
+17:44:43.145 [main] DEBUG o.s.web.method.HandlerMethod - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<?> com.stackroute.muzixservice.controller.MuzixController.saveTrack(com.stackroute.muzixservice.domain.Track) throws com.stackroute.muzixservice.exception.TrackAlreadyExistsException: Type definition error: [simple type, class com.stackroute.muzixservice.domain.Artist]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.stackroute.muzixservice.domain.Artist` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 143] (through reference chain: com.stackroute.muzixservice.domain.Track["artist"])
+17:44:43.149 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.stackroute.muzixservice.domain.Artist]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.stackroute.muzixservice.domain.Artist` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 143] (through reference chain: com.stackroute.muzixservice.domain.Track["artist"])

@@ -1,0 +1,14 @@
+17:58:59.293 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in <unknown>
+17:58:59.740 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+17:58:59.801 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:58:59.839 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+17:58:59.840 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+17:58:59.843 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+17:58:59.845 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected FixedThemeResolver
+17:58:59.846 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@62573c86
+17:58:59.846 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2418ba04
+17:58:59.846 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:58:59.846 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 6 ms
+17:58:59.980 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - DELETE "/api/v1/muzixservice/track/Track2", parameters={}
+17:58:59.994 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+17:58:59.997 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
